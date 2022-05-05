@@ -1,15 +1,29 @@
-$primaryColor: rgb(187, 190, 197);
-$secondaryColor: rgb(183, 204, 182);
+$primaryColor: rgb(22, 70, 180);
+$secondaryColor: rgb(78, 10, 78);
 
-div{
-    width: 400px;
-    height: 700px;
+
+.div{
+    height: 50px;
+    width: auto;
+    color: $secondaryColor;
+    background: url("../images/1200px-Npm-logo.svg.png");
+    display: block;
+    background-size: contain;
+}
+.div2{
+    font-family: 'Tapestry', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    height: auto;
     background-color: $primaryColor;
     color: $secondaryColor;
-    background: url("../images/IMG_20210531_154045_1.jpg");
+    display: flex;
+    justify-content: center;
 }
 
 src{
     width: 300px;
     height: 500px;
+    display: flex;
+    justify-content: center;
 }
